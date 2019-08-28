@@ -9,7 +9,12 @@ void tearDown(void)
 {
 }
 
-void test_state_machine_NeedToImplement(void)
+void test_passing(void)
 {
-    TEST_IGNORE_MESSAGE("Need to Implement state_machine");
+    TEST_ASSERT_EQUAL(1,1);
+}
+
+void test_another_passing(void)
+{
+    TEST_ASSERT_EQUAL(1,1);
 }
